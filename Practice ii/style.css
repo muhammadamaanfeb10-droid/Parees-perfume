@@ -1,0 +1,209 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+    overflow-x: hidden;
+
+}
+
+.navbar {
+
+      background: #0b0f19; 
+      /* background-color: rgba(15, 23, 42, 0.8)!important;  */
+     /* position: fixed;
+    z-index: 999;
+    width: 97%;
+     margin-left: 25px;  */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    height: 80px; 
+     /* border-radius: 20px;  */
+}
+ .nav-link:hover {
+    color:#94a3b8 !important
+  }
+
+
+
+
+.square {
+    border: 1px solid transparent;
+}
+
+.square:hover {
+    border: 1px solid whitesmoke
+}
+
+
+.navbar-brand img {
+    max-height: 130px;
+
+}
+
+
+
+.pic-ban {
+    background-image: url("Images/Banner-_01.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    width: 100%;
+    /* position: relative; */
+    /* margin-right: 25px;
+    margin-left: 9px;
+    border-radius: 20px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+
+
+
+.section1 {
+    background-color: rgba(129, 129, 129, 0.555);
+}
+
+.my-card {
+    background-image: url(Images/hero-section.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.hero-img {
+    background-image: url(Images/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.img-content {
+    position: absolute;
+    top: 50%;
+    left: 21%;
+    color: white;
+    text-align: center;
+}
+
+.img-content h2 {
+    color: black;
+}
+
+.img-content p {
+    color: grey;
+}
+
+.product-img {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+    padding: 15px;
+}
+
+
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-top: .125rem;
+
+}
+
+
+
+.dropdown-item {
+
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: white;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid lightblue;
+    font-family: system-ui;
+}
+
+.header-banner {
+    padding-top: 5%;
+    font-family: serif;
+    font-size: 2.6rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-shadow: 3px 3px lightgray;
+    padding-bottom: 20px;
+}
+
+.find-us {
+    position: relative;
+    top: 55%;
+    text-align: center;
+    color: red;
+    font-family: system-ui;
+}
+
+.CONTACTFORM h4 {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.CONTACTFORM .contact-left {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.CONTACTFORM p {
+    color: gray;
+
+}
+
+.about-section {
+    background-color: rgb(247, 247, 202);
+    /* background-color: rgb(178, 178, 179); */
+}
+
+
+
+@media (max-width: 450px) {
+    .pic-ban {
+        background-position: right;
+        min-height: 34vh;
+    }
+}
+
+@media (max-width: 1001px) {
+
+    .navbar-brand,
+    .navbar-toggler {
+        position: relative;
+        bottom: 35px;
+    }
+}
+
+@media (max-width: 570px) {
+    .product-img {
+        position: relative;
+        left: 10%;
+    }
+}
